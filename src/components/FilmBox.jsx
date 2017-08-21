@@ -11,7 +11,14 @@ export default class FilmBox extends React.Component {
           id: 1,
           title: "Sausage Party",
           time: "16:45"
-      }]
+          },
+          {
+            id: 2,
+            title: "Gaurdians of the Galaxy 2",
+            time: "18:00"
+          }
+
+      ]
     }
   }
 
