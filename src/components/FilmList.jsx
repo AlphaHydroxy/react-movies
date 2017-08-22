@@ -6,7 +6,7 @@ export default class FilmList extends React.Component {
 
     let filmNodes = this.props.data.map((film) => {
       return (
-        <Film film={film.title} key={film.id}>
+        <Film title={film.title} key={film.id}>
           {film.time}
         </Film>
       );
